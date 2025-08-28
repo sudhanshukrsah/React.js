@@ -1,12 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My First React Project
 
-Currently, two official plugins are available:
+>This is my very first React project, built using [Vite](https://vitejs.dev/) for fast development and hot module replacement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+1. **Install dependencies:**
+	```bash
+	npm install
+	```
+2. **Start the development server:**
+	```bash
+	npm run dev
+	```
+3. **Open your browser:**
+	Visit [http://localhost:5173](http://localhost:5173) to see the app running.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+react js/
+├── public/           # Static assets
+├── src/              # Source code
+│   ├── assets/       # Images and icons
+│   ├── Component/    # React components (Hero, Navbar, etc.)
+│   ├── App.jsx       # Main App component
+│   ├── main.jsx      # Entry point
+│   └── index.css     # Global styles
+├── index.html        # HTML template
+├── package.json      # Project metadata and scripts
+├── vite.config.js    # Vite configuration
+└── README.md         # Project documentation
+```
+
+## 🛠️ Features
+
+- Built with React and Vite
+- Simple component structure (Hero, Navbar)
+- Fast refresh and easy development
+
+## 📦 Available Scripts
+
+- `npm run dev` — Start the development server
+- `npm run build` — Build for production
+- `npm run preview` — Preview the production build
+
+## 📝 License
+
+This project is for learning and personal use.
