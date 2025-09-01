@@ -1,12 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Day 1: React Card Component Project
 
-Currently, two official plugins are available:
+>This project is a simple React app created as part of my learning journey. It demonstrates the use of React components, Tailwind CSS for styling, and Vite for fast development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+1. **Install dependencies:**
+	```bash
+	npm install
+	```
+2. **Start the development server:**
+	```bash
+	npm run dev
+	```
+3. **Open your browser:**
+	Visit [http://localhost:5173](http://localhost:5173) to view the app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+day1/
+├── public/                # Static assets
+├── src/                   # Source code
+│   ├── assets/            # Images and icons
+│   ├── Components/        # React components (Card)
+│   ├── App.jsx            # Main App component
+│   ├── main.jsx           # Entry point
+│   ├── App.css            # App styles (empty)
+│   └── index.css          # Global styles (Tailwind)
+├── index.html             # HTML template
+├── package.json           # Project metadata and scripts
+├── vite.config.js         # Vite configuration
+└── README.md              # Project documentation
+```
+
+## 📝 About the Project
+
+- **Card Component:**
+  - Displays a user profile card with an image, name, and description.
+  - Uses Tailwind CSS utility classes for layout and styling.
+  - Demonstrates component-based structure in React.
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 📦 Available Scripts
+
+- `npm run dev` — Start the development server
+- `npm run build` — Build for production
+- `npm run preview` — Preview the production build
+- `npm run lint` — Run ESLint
+
+## ✨ Learning Goals
+
+- Understand React component structure
+- Use Tailwind CSS for rapid UI development
+- Practice with Vite for fast React projects
+
+---
+This project is for learning and practice purposes.
